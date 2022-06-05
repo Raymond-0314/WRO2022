@@ -1,0 +1,164 @@
+html{
+    height: 100%;
+    color: #333;
+    /*font-family: "Heiti TC", "黑體-繁", "Microsoft JhengHei", "微軟正黑體", sans-serif;*/
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-color: rgb(255, 255, 255);
+    
+    margin: 0;
+    height: 100%;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+header{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 65px;
+
+    left: 0;
+    top: 0;
+
+    box-shadow: 0 5px 5px rgb(0 0 0 / 10%);
+}
+#header-in{
+    width: 100%;
+    height: 100%;
+    /*margin: 0px 20px;*/
+}
+#title-container{
+    height: 100%;
+    width: 400px;
+
+    display: flex;
+    align-items: center; /*垂直置中*/
+}
+#title{
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+
+    padding: 0 0 0 20%;
+
+    text-decoration: none;
+    
+}
+#title-nothing{
+    height: 100%;
+    width: calc(100% - 600px);
+}
+#team-choice-container{
+    height: 100%;
+    width: 200px;
+
+    display: flex;
+    align-items: center; /*垂直置中*/
+    justify-content: center;/*水平置中*/
+}
+#junior{
+    text-decoration: none;
+    color: #333;
+}
+
+
+
+#center{
+    padding: 15px 125px 10px 125px;
+    height: calc(100% - 90px);
+}
+#map-container{
+    height: calc(90% - 70px);/*70留給下面*/
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#map{
+    /*width: 100%;*/
+    height: 100%;
+}
+img{
+    height: 100%;
+}
+#object-container{
+    width: 100%;
+    height: 10%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#object-in{
+    height: 100%;
+}
+.object{
+    height: 100%;
+    margin: 0 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #333;
+
+    border-radius: 5%;
+}
+.object-in{
+    height: 90%;
+    width: 90%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #fff;
+
+    border-radius: 5%;
+}
+.obj-t{
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+
+
+#random-container{
+    height: 70px;
+    width: 50%;
+
+    padding: 0 25%;
+}
+.choice-container{
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+.random-btn{
+    font-weight: 750;
+    font-size: 20px;
+
+    padding: 5px;
+    border: 1px #333 solid;
+    border-radius: 5px;
+
+    text-decoration: none;
+    color: #333;
+}

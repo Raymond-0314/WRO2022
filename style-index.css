@@ -1,0 +1,88 @@
+html{
+    height: 100%;
+    color: #333;
+    /*font-family: "Heiti TC", "黑體-繁", "Microsoft JhengHei", "微軟正黑體", sans-serif;*/
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-color: rgb(255, 255, 255);
+    
+    margin: 0;
+    height: 100%;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+header{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 65px;
+
+    left: 0;
+    top: 0;
+
+    box-shadow: 0 5px 5px rgb(0 0 0 / 10%);
+}
+#header-in{
+    width: 100%;
+    height: 100%;
+    /*margin: 0px 20px;*/
+}
+#title-container{
+    height: 100%;
+    width: 400px;
+
+    display: flex;
+    align-items: center; /*垂直置中*/
+}
+#title{
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+
+    text-decoration: none;
+
+    padding: 0 0 0 20%;
+}
+
+
+#center{
+    padding: 15px 125px 10px 125px;
+    height: calc(100% - 90px);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#random-container{
+    height: 70px;
+    width: 50%;
+    padding: 0 25%;
+}
+.choice-container{
+    height: 100%;
+    width: calc(100% / 2);
+
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+.random-btn{
+    font-weight: 750;
+    font-size: 20px;
+
+    padding: 5px;
+    border: 1px #333 solid;
+    border-radius: 5px;
+
+    text-decoration: none;
+    color: #333;
+}
